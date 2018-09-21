@@ -1,0 +1,46 @@
+body,html {
+  height: 100%;
+  width: 100%;
+}
+
+header.fithead {
+  background-image: url("gym.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+
+header.fithead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.fithead h1 {
+  font-size: 2rem;
+}
+
+header.fithead p {
+  font-weight: 300;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #ee4b28;
+}
